@@ -1,0 +1,8 @@
+disable BitLocker 
+  manage-bde  -status  [if status  Conversion Status:    Used Space Only Encrypted ]
+  Disable-BitLocker  -MountPoint   "A:"  [disable should this  Percentage Encrypted: 0.0% ]
+
+-------------------------------------------------------------------------
+
+
+  
